@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.geoquiz.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="24dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal|center_vertical">
+        <Button
+            android:id="@+id/bouton_vrai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bouton_vrai"/>
+        <Button
+            android:id="@+id/bouton_faux"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bouton_faux"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bouton_suivant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_suivant"
+        android:layout_gravity="bottom|right"
+        android:drawableRight="@drawable/arrow_right"
+        android:drawablePadding="4dp"
+        />
+    <Button
+        android:id="@+id/boutonAfficheAide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_affiche_aide"
+        android:layout_gravity="bottom|center"
+        android:drawablePadding="4dp"
+        />
+</FrameLayout>

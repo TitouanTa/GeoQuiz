@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="bouton_faux">Faux</string>
+    <string name="bouton_vrai">Vrai</string>
+    <string name="question_text">Paris est la capitale de la France</string>
+    <string name="toast_correct">Bien joué !</string>
+    <string name="toast_faux">Dommage :(</string>
+    <string name="bouton_suivant">Question suivante</string>
+    <string name="question_oceans">L\'océan Pacifique est plus grand que l\'océan Atlantique.</string>
+    <string name="question_mideast">Le canal de Suez relie la Mer Rouge et l\'océan Indien.</string>
+    <string name="question_africa">La source du Nile est en Egypte.</string>
+    <string name="question_americas">L\'Amazone est la rivière la plus longue d\'Amérique du Sud.</string>
+    <string name="question_asia">Le lac Baikal est le lac d\'eau douce le plus ancien et le plus profond.</string>
+    <string name="bouton_affiche_aide">Afficher aide</string>
+    <string name="toast_aide">Etes-vous sûr de vouloir faire ça ?</string>
+    <string name="toast_triche">C\'est pas bien de tricher !</string>
+    <string name="texte_attention">Etes-vous sûr de vouloir faire ça ?</string>
+</resources>
